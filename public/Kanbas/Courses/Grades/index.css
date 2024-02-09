@@ -1,0 +1,452 @@
+.wd-modules,
+.wd-modules * {
+    border-radius: 0%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wd-modules {
+    margin: 5px;
+}
+
+.wd-modules > li {
+    background-color: lightgray;
+    border: 1px solid gray !important;
+    border-left: none !important;
+    margin-top: 15px;
+}
+
+.wd-modules > li > div {
+    padding: 8px;
+    border-left: 1px solid gray !important;
+}
+
+.wd-modules > li > ul > li {
+    padding: 8px;
+    border-top: 1px solid gray !important;
+    border-left: 2px solid green;
+}
+
+.wd-modules > li > ul > li > a {
+    text-decoration: none;
+}
+
+.wd-modules > li {
+    margin-bottom: 20px;
+}
+
+.wd-link {
+    color:red;
+}
+
+.straight-button button {
+    border-radius: 0%;
+    text-align: center;
+    padding: 5px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+.no-line {
+    text-decoration: none;
+}
+
+.straight-box input {
+    border-radius: 0%;
+}
+
+.button-one button {
+    border-radius: 0%;
+    text-align: center;
+    margin: 0px;
+    width: 100%
+}
+
+.button-two button {
+    width: 100%;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.todo-grade {
+    text-align: center;
+}
+
+.todo-grade > i {
+    color: red;
+    font-size: 15px;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.todo-grade a {
+    color: red;
+    margin-right: 3px;
+    font-size: 15px;
+    font-weight:bold;
+    text-decoration: none;
+}
+
+.todo-grade-small {
+    font-size: small!important;
+    color: gray;
+}
+.cu-text {
+    margin-left:3px
+}
+
+.cu-text a {
+    color: red!important;
+    font-size: small;
+    text-decoration: none;
+}
+.cu-text i {
+    margin-right: 5px;
+}
+
+.course-small {
+    font-size: 12px!important;
+    color: gray;
+}
+
+.wd-course-nav {
+    width: 180px;
+}
+
+.wd-bdc-con {
+    padding-top: 10px;
+}
+
+.wd-bdc-con-left i {
+    color: red;
+}
+
+.wd-bdc-con-left a {
+    padding-top: 10px;
+    color: red;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+.wd-bdc-con-left li {
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.wd-nav a {
+    color: red!important;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.wd-nav a i {
+    color: red!important;
+    font-size: 25px;
+    margin-left:15px;
+    margin-right: 5px;
+}
+
+.wd-nav a i.wd-account-icon {
+    color: gray!important;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.wd-nav-two {
+    width:100%
+}
+
+.wd-nav-two a {
+    color: red!important;
+    margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+    .navbar-collapse {
+        position:fixed;
+        top:0;
+        width:100%;
+        z-index:10;
+        overflow-y: auto;
+        height: 100vh;
+    }
+
+    .navbar-collapse.collapsing {
+        height: 100%;
+        -webkit-transition: left 0.3s ease;
+        -o-transition: left 0.3s ease;
+        -moz-transition: left 0.3s ease;
+        transition: left 0.3s ease;
+        left: -100%;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        -webkit-transition: left 0.1s ease-in;
+        -o-transition: left 0.1s ease-in;
+        -moz-transition: left 0.1s ease-in;
+        transition: left 0.1s ease-in;
+    }
+}
+
+.min-w-0 {
+    min-width: 0;
+}
+
+.wd-grade-table {
+    min-width: 100px!important;
+}
+
+.wd-grade-table th, td {
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    vertical-align: middle;
+    min-width: 100px!important;
+    width: 100px;
+    height: 50px;
+}
+
+.wd-grade-stu {
+    text-align: left!important;
+    vertical-align:top!important;
+    font-weight: bold!important;
+}
+
+.wd-grade-names {
+    width:200px!important;
+    vertical-align:top!important;
+    text-align: left!important;
+    color:red!important;
+}
+
+.wd-grade-input {
+    text-align: center!important;
+    font-size: 14px;
+}
+
+#kanbas-navbar {
+    width: 85px !important;
+    min-height: max(100vh, 100%);
+}
+
+#kanbas-navbar ul {
+    max-width: 100% !important;
+}
+
+#kanbas-navbar ul li {
+    max-width: 100% !important;
+}
+
+.kanbas-navbar-item-text {
+    font-size: 0.9em !important;
+}
+
+.nav-link,
+.nav-link:visited {
+    color: #ffffff;
+    max-width: 100% !important;
+}
+
+.nav-link:hover {
+    color: #E50000;
+}
+
+.nav-pills .nav-link span {
+    color: #E50000;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #ffffff;
+    color: #E50000;
+}
+
+#account-icon {
+    color: grey;
+}
+
+.nav-pills .nav-link {
+    width: 100vw;
+    border-radius: 0;
+    padding: 5px;
+}
+
+.nav-pills .nav-link div span,
+.nav-pills .nav-link div div {
+    margin-block: 3px;
+}
+
+.secondary-sidebar {
+    margin: 25px;
+}
+
+#courses-page-header-icon {
+    color: #E50000;
+}
+
+.breadcrumb-item a {
+    color: #E50000;
+    text-decoration: none;
+}
+
+.secondary-sidebar {
+    max-width: 190px;
+}
+
+.secondary-sidebar-title {
+    font-style: italic;
+    color: rgb(93, 93, 93);
+}
+
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.secondary-sidebar ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.secondary-sidebar li {
+    list-style-type: none;
+    padding-block: 10px;
+    /* margin-block: 20px; */
+}
+
+.secondary-sidebar li a {
+    text-decoration: none;
+    color: #E50000;
+    font-size: 1.2em;
+}
+
+.secondary-sidebar li.selected {
+    padding-left: 8px;
+    margin-left: -10px;
+    border-left: 2px solid black;
+}
+
+.secondary-sidebar li.selected a {
+    color: black;
+    font-weight: 500;
+}
+
+.fa-check-circle {
+    color: green;
+}
+
+#links-list {
+    list-style: none;
+    padding: 0;
+}
+
+.override-btn {
+    background-color: rgb(233, 233, 233);
+    border: 1px solid rgb(196, 195, 195);
+    color: black;
+}
+
+.btn-primary.override-btn:active {
+    background-color: grey;
+    border: 1px solid grey;
+    color: black;
+}
+
+.override-btn:hover {
+    background-color: lightgrey;
+    color: black;
+    border: 1px solid lightgrey;
+}
+
+.btn-red {
+    color: white;
+    background-color: #E50000;
+    border: 1px solid rgb(196, 195, 195);
+}
+
+.btn-primary.btn-red:active {
+    background-color: #a00000;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn-red:hover {
+    background-color: #b90000;
+    color: white;
+    border: 1px solid white;
+}
+
+.course-module a {
+    text-decoration: none;
+    color: black;
+}
+
+.course-module a:hover {
+    text-decoration: underline;
+}
+
+.module-title .two-ellipsis {
+    padding-left: 2px;
+}
+
+.finished {
+    border-radius: 0;
+    border-left: 3px solid;
+    border-left-color: green;
+}
+
+.course-module .module-slide-link {
+    color: #E50000;
+}
+
+.fa-link {
+    color: green;
+    font-size: 0.8em;
+}
+
+.btn-50-width {
+    width: 50%;
+}
+
+.check-white {
+    color: white;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.numbered-notification-badger {
+    color: #E50000;
+}
+
+.numbered-notification-badger span {
+    color: white;
+}
+
+.link-red {
+    text-decoration: none;
+    color: #E50000;
+}
+
+.link-red:hover,
+.secondary-sidebar li a:hover {
+    color: #a30000;
+}
+
+.secondary-sidebar li.selected a:hover {
+    color: black;
+}
+
+.to-do-item-title:hover {
+    text-decoration: underline;
+}
+
+.right-sidebar-detail {
+    font-size: 0.8em;
+}
+
+.link-small {
+    font-size: 0.8em;
+}
