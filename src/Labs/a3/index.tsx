@@ -1,12 +1,10 @@
 import JavaScript from "./JavaScript";
-import {Link} from "react-router-dom";
 import Classes from "./Classes";
 import PathParameters from "./routing/PathParameters";
 import Styles from "./Styles";
 import ConditionalOutput from "./ConditionalOutput";
 import Highlight from "./Highlight";
 import Add from "./Add";
-import TodoItem from "./todos/TodoItem";
 import TodoList from "./todos/TodoList";
 
 
