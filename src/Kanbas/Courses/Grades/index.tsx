@@ -28,17 +28,17 @@ function Grades() {
                         aria-expanded="false">
                         Gradebook </button>
 
-                    <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a className="dropdown-item" href="#">
-                            Action
-                        </a>
-                        <a className="dropdown-item" href="#">
-                            Another action
-                        </a>
-                        <a className="dropdown-item" href="#">
-                            Something else here
-                        </a>
-                    </div>
+                    {/*<div className="dropdown-menu" aria-labelledby="dropdownMenuButton">*/}
+                    {/*    <a className="dropdown-item" href="#">*/}
+                    {/*        Action*/}
+                    {/*    </a>*/}
+                    {/*    <a className="dropdown-item" href="#">*/}
+                    {/*        Another action*/}
+                    {/*    </a>*/}
+                    {/*    <a className="dropdown-item" href="#">*/}
+                    {/*        Something else here*/}
+                    {/*    </a>*/}
+                    {/*</div>*/}
                 </div>
                 <FaRegKeyboard style={{color: 'red'}} className="text-red my-2" />
                 <div className="wd-float-right">
