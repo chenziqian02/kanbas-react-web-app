@@ -1,9 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import "./index.css";
-import { FaRegUserCircle, FaBook, FaRegCalendarAlt, FaRegClock, FaEnvelopeOpenText, FaSignOutAlt , FaRegQuestionCircle } from "react-icons/fa";
-import {IoSpeedometerOutline} from "react-icons/io5";
-import {RiMovieLine} from "react-icons/ri";
-import NUlogo from "../../images/NU_logo.png";
+
 function CourseNavigation() {
     const links = [
         "Home",

@@ -28,17 +28,17 @@ function Grades() {
                         aria-expanded="false">
                         Gradebook </button>
 
-                    {/*<div className="dropdown-menu" aria-labelledby="dropdownMenuButton">*/}
-                    {/*    <a className="dropdown-item" href="#">*/}
-                    {/*        Action*/}
-                    {/*    </a>*/}
-                    {/*    <a className="dropdown-item" href="#">*/}
-                    {/*        Another action*/}
-                    {/*    </a>*/}
-                    {/*    <a className="dropdown-item" href="#">*/}
-                    {/*        Something else here*/}
-                    {/*    </a>*/}
-                    {/*</div>*/}
+                    <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a className="dropdown-item" href="/#">
+                            Action
+                        </a>
+                        <a className="dropdown-item" href="/#">
+                            Another action
+                        </a>
+                        <a className="dropdown-item" href="/#">
+                            Something else here
+                        </a>
+                    </div>
                 </div>
                 <FaRegKeyboard style={{color: 'red'}} className="text-red my-2" />
                 <div className="wd-float-right">
@@ -58,17 +58,17 @@ function Grades() {
                         </button>
                         <ul className="dropdown-menu">
                             <li>
-                                <a className="dropdown-item" href="#">
+                                <a className="dropdown-item" href="/#">
                                     CSV
                                 </a>
                             </li>
                             <li>
-                                <a className="dropdown-item" href="#">
+                                <a className="dropdown-item" href="/#">
                                     PDF
                                 </a>
                             </li>
                             <li>
-                                <a className="dropdown-item" href="#">
+                                <a className="dropdown-item" href="/#">
                                     Print
                                 </a>
                             </li>
@@ -167,7 +167,7 @@ function Grades() {
                         return (
                             <tr>
                                 <th scope="row" className="wd-breadcrumb-link">
-                                    <a href="#" className="mx-0">
+                                    <a href="/#" className="mx-0">
                                         {user?.firstName} {user?.lastName}
                                     </a>
                                 </th>

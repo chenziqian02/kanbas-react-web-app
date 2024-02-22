@@ -1,5 +1,4 @@
 import Modules from "../Modules";
-import ModuleList from "../Modules/List";
 import "./index.css";
 import { FaBars, FaChevronDown,FaCalendarAlt, FaTimes, FaBan, FaCheckCircle, FaSignOutAlt, FaRegBell, FaDotCircle } from "react-icons/fa";
 import { PiEyeglassesLight, PiSignIn } from "react-icons/pi";
@@ -90,25 +89,25 @@ function Home() {
                                     </div>
                                 </li>
                                 <li className="btn btn-light wd-button-style w-100">
-                                    <a href="#"><PiSignIn className="wd-course-status-icons" /> Import Existing Content</a>
+                                    <a href="/#"><PiSignIn className="wd-course-status-icons" /> Import Existing Content</a>
                                 </li>
                                 <li className="btn btn-light wd-button-style w-100">
-                                    <a href="#"><FaSignOutAlt className="wd-course-status-icons" /> Import From Commons</a>
+                                    <a href="/#"><FaSignOutAlt className="wd-course-status-icons" /> Import From Commons</a>
                                 </li>
                                 <li className="btn btn-light wd-button-style w-100">
-                                    <a href="#"><ImTarget className="wd-course-status-icons" /> Choose Home Page</a>
+                                    <a href="/#"><ImTarget className="wd-course-status-icons" /> Choose Home Page</a>
                                 </li>
                                 <li className="btn btn-light wd-button-style w-100">
-                                    <a href="#"><IoBarChart className="wd-course-status-icons" /> View Course Stream</a>
+                                    <a href="/#"><IoBarChart className="wd-course-status-icons" /> View Course Stream</a>
                                 </li>
                                 <li className="btn btn-light wd-button-style w-100">
-                                    <a href="#"><CiBullhorn className="wd-course-status-icons" /> New Announcements</a>
+                                    <a href="/#"><CiBullhorn className="wd-course-status-icons" /> New Announcements</a>
                                 </li>
                                 <li className="btn btn-light wd-button-style w-100">
-                                    <a href="#"><IoBarChart className="wd-course-status-icons" /> New Analytics</a>
+                                    <a href="/#"><IoBarChart className="wd-course-status-icons" /> New Analytics</a>
                                 </li>
                                 <li className="btn btn-light wd-button-style w-100">
-                                    <a href="#"><FaRegBell className="wd-course-status-icons" /> View Course Notifications</a>
+                                    <a href="/#"><FaRegBell className="wd-course-status-icons" /> View Course Notifications</a>
                                 </li>
                             </ul>
 
@@ -119,7 +118,7 @@ function Home() {
                                     <FaDotCircle style={{color: "red"}}/>
                                 </div>
                                 <div className="col-9 wd-todo-heading">
-                                    <a href="#">Grade A1 - ENV + HTML</a><br />
+                                    <a href="/#">Grade A1 - ENV + HTML</a><br />
                                     <span className="wd-todo-description">100 points • Sep 18 at 11:59pm</span>
                                 </div>
                                 <div className="col-2">
@@ -134,7 +133,7 @@ function Home() {
                                 </div>
                                 <div className="col wd-todo-heading">
                                     <FaCalendarAlt style={{color: "gray"}}/>
-                                    <a href="#"> View Calendar</a><br />
+                                    <a href="/#"> View Calendar</a><br />
                                 </div>
                             </div>
                             <hr />
@@ -144,7 +143,7 @@ function Home() {
                                     <FaCalendarAlt style={{color: "gray"}}/>
                                 </div>
                                 <div className="col-11 wd-todo-heading">
-                                    <a href="#">Lecture</a><br />
+                                    <a href="/#">Lecture</a><br />
                                     <span className="wd-todo-description">CS4550.1256.123456</span><br />
                                     <span className="wd-todo-description">Sep 11 at 11:45am</span>
                                 </div>
@@ -154,7 +153,7 @@ function Home() {
                                     <FaCalendarAlt style={{color: "gray"}}/>
                                 </div>
                                 <div className="col-11 wd-todo-heading">
-                                    <a href="#">Lecture</a><br />
+                                    <a href="/#">Lecture</a><br />
                                     <span className="wd-todo-description">CS4550.1256.123456</span><br />
                                     <span className="wd-todo-description">Sep 11 at 11:45am</span>
                                 </div>
@@ -164,15 +163,14 @@ function Home() {
                                     <FaCalendarAlt style={{color: "gray"}}/>
                                 </div>
                                 <div className="col-11 wd-todo-heading">
-                                    <a href="#">Lecture</a><br />
+                                    <a href="/#">Lecture</a><br />
                                     <span className="wd-todo-description">CS4550.1256.123456</span><br />
                                     <span className="wd-todo-description">Sep 11 at 11:45am</span>
                                 </div>
                             </div>
                             <br />
-                            <span className="wd-todo-heading"
-                            ><a href="#">12 more in the next week</a><br />
-          </span>
+                            <span className="wd-todo-heading"><a href="/#">12 more in the next week</a><br />
+                            </span>
                         </div>
                     </div>
                 </div>

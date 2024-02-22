@@ -1,5 +1,4 @@
 import ModuleList from "./List";
-import { CiCircleCheck } from "react-icons/ci";
 import { FaPlus, FaEllipsisV } from "react-icons/fa";
 import {AiFillCheckCircle} from "react-icons/ai";
 
@@ -16,17 +15,17 @@ function Modules() {
 
                 <ul className="dropdown-menu">
                     <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/#">
                             Publish Some
                         </a>
                     </li>
                     <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/#">
                             Option 2
                         </a>
                     </li>
                     <li>
-                        <a className="dropdown-item" href="#">
+                        <a className="dropdown-item" href="/#">
                             Option 3
                         </a>
                     </li>
