@@ -16,6 +16,7 @@ import {AiFillCheckCircle} from "react-icons/ai";
 import {BiClipboard} from "react-icons/bi";
 
 
+
 function Assignments() {
     const { courseId } = useParams();
     const assignmentList = useSelector((state: KanbasState) =>
@@ -31,7 +32,6 @@ function Assignments() {
         const isConfirmed = window.confirm("Are you sure?");
 
         if (isConfirmed) {
-            // User clicked "Yes", add functionality here
             console.log("User clicked Yes");
             dispatch(deleteAssignment(assign_id));
 
@@ -82,7 +82,7 @@ function Assignments() {
                             </Link>
                         </div>
                         <div className="right-group">
-                            {/*<button className="btn btn-danger" onClick={() => openDialog(assignment._id)}>Delete</button>*/}
+                            <button className="btn btn-danger"  onClick={() => handleDeleteConfirmation(assignment._id)}>Delete</button>
                             <AiFillCheckCircle style={{color:'green'}}/>
                             <FaEllipsisV/>
                         </div>
