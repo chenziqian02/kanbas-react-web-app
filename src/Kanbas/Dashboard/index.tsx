@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import db from "../Database";
 import './index.css'
-import React, { useState } from "react";
+import React from "react";
 
 // import { FaEllipsisV } from 'react-icons/fa';
 // import { BiCalendarEdit } from "react-icons/bi";

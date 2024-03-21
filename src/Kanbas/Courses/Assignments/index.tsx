@@ -1,16 +1,12 @@
 import React from "react";
-import { FaCheckCircle, FaEllipsisV, FaPlus } from "react-icons/fa";
-import { MdDeleteForever } from "react-icons/md";
-import { PiNotePencil } from "react-icons/pi";
-import { GoTriangleDown } from "react-icons/go";
+import { FaEllipsisV, FaPlus } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
-import db from "../../Database";
 import "./index.css";
 import { useDispatch, useSelector } from "react-redux";
 import { KanbasState } from "../../store";
 import {
     deleteAssignment,
-    setAssignment,
+    // setAssignment,
 } from "./assignmentsReducer";
 import {AiFillCheckCircle} from "react-icons/ai";
 import {BiClipboard} from "react-icons/bi";
@@ -22,11 +18,11 @@ function Assignments() {
     const assignmentList = useSelector((state: KanbasState) =>
         state.assignmentsReducer.assignments);
     console.log(assignmentList);
-    const formatDate = (date: any) => {
-        return `${(date.getMonth() + 1).toString().padStart(2, "0")}/
-          ${(date.getDate() + 1).toString().padStart(2, "0")}/
-          ${date.getFullYear()}`;
-    };
+    // const formatDate = (date: any) => {
+    //     return `${(date.getMonth() + 1).toString().padStart(2, "0")}/
+    //       ${(date.getDate() + 1).toString().padStart(2, "0")}/
+    //       ${date.getFullYear()}`;
+    // };
     const dispatch = useDispatch();
     const handleDeleteConfirmation = (assign_id : any) => {
         const isConfirmed = window.confirm("Are you sure?");
