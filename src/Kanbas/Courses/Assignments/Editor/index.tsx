@@ -16,7 +16,7 @@ function AssignmentEditor() {
     const { assignmentId } = useParams();
     const assignmentList = useSelector((state: KanbasState) =>
         state.assignmentsReducer.assignments);
-    const [initialAddAssignment, setInitialAssignment] = useState({
+    const initialAddAssignment = useState({
         "_id": "CS5200",
         "title": "default assignment title",
         "course": "",
@@ -41,7 +41,7 @@ function AssignmentEditor() {
 
     let assignmentFromRedux = assignmentFromReduxTemp;
     if (assignment !== undefined && (assignmentFromReduxTemp._id === 'A999' ||
-        assignmentFromRedux._id != assignmentId)) {
+        assignmentFromRedux._id !== assignmentId)) {
         console.log("taking values from existing assignment");
         assignmentFromRedux = assignment;
     }
