@@ -6,13 +6,23 @@ import ConditionalOutput from "./ConditionalOutput";
 import Highlight from "./Highlight";
 import Add from "./Add";
 import TodoList from "./todos/TodoList";
-
+import { useSelector } from "react-redux";
+import { LabState } from "../store";
 
 function Assignment3() {
+    const { todos } = useSelector((state: LabState) => state.todosReducer);
+
     return (
         <div className="container" style={{padding: 0, margin: 0}} >
 
             <h1 style={{ marginTop: 0, paddingTop:0}}>Assignment 3</h1>
+            <ul className="list-group">
+                {todos.map((todo) => (
+                    <li className="list-group-item" key={todo.id}>
+                        {todo.title}
+                    </li>
+                ))}
+            </ul>
 
             <TodoList/>
             <ConditionalOutput/>

@@ -14,12 +14,12 @@ function CourseNavigation() {
         "Discussions",
         "Announcements",
         "Pages",
-        "Files",
-        "Rubrics",
-        "Outcomes",
-        "Collaboration",
-        "Syllabus",
-        "Settings",
+        // "Files",
+        // "Rubrics",
+        // "Outcomes",
+        // "Collaboration",
+        // "Syllabus",
+        // "Settings",
     ];
     const { pathname } = useLocation();
     return (

@@ -38,7 +38,7 @@ function App() {
             <div>
                 <Routes>
 
-                    <Route path="/"         element={<Navigate to="/Labs"/>}/>
+                    <Route path="/"         element={<Navigate to="a3"/>}/>
                     <Route path="/Labs/*"   element={<Labs/>}/>
                     <Route path="/Kanbas/*" element={<Kanbas/>}/>
                     <Route path="/hello"    element={<HelloWorld/>}/>

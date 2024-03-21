@@ -10,11 +10,12 @@ import Grades from "./Grades";
 import {GrInspect} from "react-icons/gr";
 
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
     const { courseId } = useParams();
     const {pathname} = useLocation();
 
-    const course = db.courses.find((course) => course._id === courseId);
+    // db.courses.find
+    const course = courses.find((course) => course._id === courseId);
     const pathElements = pathname.split('/');
     const courseNav = pathElements[pathElements.length - 1];
     const editAssignment = courseNav.startsWith('A') && courseNav.length === 4;

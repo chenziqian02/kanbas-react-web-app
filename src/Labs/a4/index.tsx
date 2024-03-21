@@ -1,15 +1,36 @@
-import Nav from "../../Nav";
-import JavaScript from "../a3/JavaScript";
-
-
+import PassingFunctions from "./PassingFunctions";
+import ClickEvent from "./ClickEvent";
+import PassingDataOnEvent from "./PassingDataOnEvent";
+import EventObject from "./EventObject";
+import Counter from "./Counter";
+import BooleanStateVariables from "./BooleanStateVariables";
+import StringStateVariables from "./StringStateVariables";
+import DateStateVariable from "./DateStateVariable";
+import ObjectStateVariable from "./ObjectStateVariable";
+import ArrayStateVariable from "./ArrayStateVariable";
+import ParentStateComponent from "./ParentStateComponent";
+import ChildStateComponent from "./ChildStateComponent";
+import ReduxExamples from "./ReduxExamples";
 
 function Assignment4() {
+    function sayHello() {
+        alert("Hello");
+    }
     return (
-        <div className="container" style={{padding: 0, margin: 0}} >
-            <Nav/>
-
-            <h1 style={{ marginTop: 0, paddingTop:0}}>Assignment 4</h1>
-            <JavaScript/>
+        <div>
+            <h1>Labs</h1>
+            <h1>Assignment 4</h1>
+            <ReduxExamples/>
+            <ClickEvent/>
+            <PassingDataOnEvent/>
+            <PassingFunctions theFunction={sayHello} />
+            <EventObject/>
+            <Counter/>
+            <BooleanStateVariables/>
+            <StringStateVariables/>
+            <DateStateVariable/>
+            <ObjectStateVariable/>
+            <ArrayStateVariable/>
 
         </div>
     );
