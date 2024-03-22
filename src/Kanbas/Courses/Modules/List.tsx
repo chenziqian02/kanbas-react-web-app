@@ -47,22 +47,22 @@ function ModuleList() {
                 .filter((module) => module.course === courseId)
                 .map((module, index) => (
                     <li key={index} className="assignment-row">
-                        <button
-                            onClick={() => dispatch(deleteModule(module._id))}>
+                        <FaEllipsisV/>
+                        <button style={{ float: 'left' }}
+                                onClick={() => dispatch(deleteModule(module._id))}>
                             Delete
                         </button>
-                        <button
-                            onClick={() => dispatch(setModule(module))}>
+                        &nbsp;&nbsp;{module.name}
+
+                        <button style={{ float: 'left' }}
+                                onClick={() => dispatch(setModule(module))}>
                             Edit
                         </button>
-
-                        <FaEllipsisV/>
-                        <FaEllipsisV/>
-                        &nbsp;&nbsp;{module.name}
                         <AiFillCheckCircle style={{color:'green'}}/>
                         &nbsp;
                         +
                         &nbsp;
+
                         <FaEllipsisV/>
                     </li>
                 ))

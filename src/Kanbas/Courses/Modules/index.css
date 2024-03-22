@@ -24,6 +24,10 @@
 .assignment-row > :nth-child(3) {
     margin-left: auto;
 }
+.left-align-button {
+    float: left;
+}
+
 
 .wd-modules,
 .wd-modules * {

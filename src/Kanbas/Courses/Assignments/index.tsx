@@ -44,8 +44,7 @@ function Assignments() {
                     <Link to={`/Kanbas/Courses/${courseId}/Assignments/Add+`}>
                         <button
                             type="button"
-                            className="btn btn-danger wd-button-style float-end mx-1"
-                        >
+                            className="btn btn-danger wd-button-style float-end mx-1">
                             <FaPlus /> Assignment
                         </button>
                     </Link>
